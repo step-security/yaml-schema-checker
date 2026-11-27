@@ -35,18 +35,18 @@
     },
     "dependencies": {
         "@actions/core": "2.0.1",
-        "axios": "1.17.0",
-        "glob": "11.1.0",
-        "js-yaml": "4.2.0",
+        "axios": "^1.21.0",
+        "glob": "^14.0.6",
+        "js-yaml": "^4.2.0",
         "jsonschema": "1.4.1"
     },
     "devDependencies": {
-        "@eslint/js": "9.1.1",
-        "@vercel/ncc": "0.38.1",
-        "@vitest/coverage-v8": "^4.1.9",
-        "eslint": "9.1.1",
-        "globals": "14.0.0",
-        "nodemon": "3.1.0",
-        "vitest": "^4.1.9"
+        "@eslint/js": "^9.1.1",
+        "@vercel/ncc": "^0.38.1",
+        "@vitest/coverage-v8": "^4.1.11",
+        "eslint": "^9.1.1",
+        "globals": "^14.0.0",
+        "nodemon": "^3.1.0",
+        "vitest": "^4.1.11"
     }
 }

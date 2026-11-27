@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const process = require("process");
-const { glob } = require("glob");
+const { globSync } = require("glob");
 const StringUtils = require("./string-utils");
 const core = require("@actions/core");
 
@@ -49,7 +49,7 @@ class FileUtils {
             cwd: FileUtils.getWorkspacePath()
         };
 
-        return glob.sync(pattern, options);
+        return globSync(pattern, options);
     }
 
     static isEmpty(path) {
